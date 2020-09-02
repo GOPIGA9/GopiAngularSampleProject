@@ -264,8 +264,8 @@ __webpack_require__.r(__webpack_exports__);
 
 function HomeComponent_div_12_Template(rf, ctx) { if (rf & 1) {
     const _r4 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 9);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "button", 10);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 10);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "button", 11);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function HomeComponent_div_12_Template_button_click_1_listener() { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r4); const year_r2 = ctx.$implicit; const ctx_r3 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](); return ctx_r3.applyFilter("year", year_r2); });
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -287,7 +287,7 @@ function HomeComponent_mat_grid_tile_22_mat_list_item_10_Template(rf, ctx) { if 
 function HomeComponent_mat_grid_tile_22_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "mat-grid-tile");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "mat-card", 2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](2, "img", 11);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](2, "img", 12);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "mat-card-subtitle");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](4);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -363,7 +363,7 @@ class HomeComponent {
     }
 }
 HomeComponent.ɵfac = function HomeComponent_Factory(t) { return new (t || HomeComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_api_calls_service__WEBPACK_IMPORTED_MODULE_1__["ApiCallsService"])); };
-HomeComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: HomeComponent, selectors: [["app-home"]], decls: 23, vars: 3, consts: [[1, "row"], [1, "col-md-3"], [1, "minCardHieght"], ["mat-raised-button", "", 2, "float", "right", 3, "click"], ["style", "display: grid;", 4, "ngFor", "ngForOf"], ["mat-raised-button", "", 3, "click"], [1, "col-md-9"], ["rowHeight", "35em", 3, "cols", "resize"], [4, "ngFor", "ngForOf"], [2, "display", "grid"], ["mat-raised-button", "", 2, "grid-column", "auto", 3, "click"], ["mat-card-image", "", 1, "imgSize", 3, "src"]], template: function HomeComponent_Template(rf, ctx) { if (rf & 1) {
+HomeComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: HomeComponent, selectors: [["app-home"]], decls: 28, vars: 3, consts: [[1, "row"], [1, "col-md-3"], [1, "minCardHieght"], ["mat-raised-button", "", 2, "float", "right", 3, "click"], ["style", "display: grid;", 4, "ngFor", "ngForOf"], ["mat-raised-button", "", 3, "click"], [1, "col-md-9"], ["rowHeight", "35em", 3, "cols", "resize"], [4, "ngFor", "ngForOf"], [1, "alignCenter"], [2, "display", "grid"], ["mat-raised-button", "", 2, "grid-column", "auto", 3, "click"], ["mat-card-image", "", 1, "imgSize", 3, "src"]], template: function HomeComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "mat-card", 2);
@@ -403,6 +403,14 @@ HomeComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComp
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](22, HomeComponent_mat_grid_tile_22_Template, 21, 6, "mat-grid-tile", 8);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](23, "div", 9);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](24, "label");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](25, "Developed By :");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](26, "h3");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](27, "Gopi(gopiga9@gmail.com)");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     } if (rf & 2) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](12);
@@ -411,7 +419,7 @@ HomeComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComp
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("cols", ctx.breakpoint);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx.XTdatas);
-    } }, directives: [_angular_material_card__WEBPACK_IMPORTED_MODULE_2__["MatCard"], _angular_material_card__WEBPACK_IMPORTED_MODULE_2__["MatCardTitle"], _angular_material_button__WEBPACK_IMPORTED_MODULE_3__["MatButton"], _angular_material_card__WEBPACK_IMPORTED_MODULE_2__["MatCardContent"], _angular_material_list__WEBPACK_IMPORTED_MODULE_4__["MatList"], _angular_common__WEBPACK_IMPORTED_MODULE_5__["NgForOf"], _angular_material_grid_list__WEBPACK_IMPORTED_MODULE_6__["MatGridList"], _angular_material_grid_list__WEBPACK_IMPORTED_MODULE_6__["MatGridTile"], _angular_material_card__WEBPACK_IMPORTED_MODULE_2__["MatCardImage"], _angular_material_card__WEBPACK_IMPORTED_MODULE_2__["MatCardSubtitle"], _angular_material_list__WEBPACK_IMPORTED_MODULE_4__["MatListItem"]], styles: ["mat-grid-tile[_ngcontent-%COMP%] {\r\n  background: #dfdfdf;\r\n}\r\n[_nghost-%COMP%] {\r\n  display: block;\r\n  border: 2px solid black;\r\n  border-radius: 1px;\r\n  background-color: #e7e7e7;\r\n}\r\n.imgSize[_ngcontent-%COMP%]{\r\nmin-width: 40px;\r\nmin-height: 80px;\r\n}\r\n.minCardHieght[_ngcontent-%COMP%]{\r\nmin-height: 35em;\r\nmargin:3px;\r\nborder: 2px solid black;\r\nborder-radius: 1px ;\r\n}\r\n.yearContainer[_ngcontent-%COMP%]{\r\ndisplay: grid;\r\n\r\n}\r\n.yearElemnt[_ngcontent-%COMP%]{\r\ngrid-auto-columns: auto;\r\n}"] });
+    } }, directives: [_angular_material_card__WEBPACK_IMPORTED_MODULE_2__["MatCard"], _angular_material_card__WEBPACK_IMPORTED_MODULE_2__["MatCardTitle"], _angular_material_button__WEBPACK_IMPORTED_MODULE_3__["MatButton"], _angular_material_card__WEBPACK_IMPORTED_MODULE_2__["MatCardContent"], _angular_material_list__WEBPACK_IMPORTED_MODULE_4__["MatList"], _angular_common__WEBPACK_IMPORTED_MODULE_5__["NgForOf"], _angular_material_grid_list__WEBPACK_IMPORTED_MODULE_6__["MatGridList"], _angular_material_grid_list__WEBPACK_IMPORTED_MODULE_6__["MatGridTile"], _angular_material_card__WEBPACK_IMPORTED_MODULE_2__["MatCardImage"], _angular_material_card__WEBPACK_IMPORTED_MODULE_2__["MatCardSubtitle"], _angular_material_list__WEBPACK_IMPORTED_MODULE_4__["MatListItem"]], styles: ["mat-grid-tile[_ngcontent-%COMP%] {\r\n  background: #dfdfdf;\r\n}\r\n[_nghost-%COMP%] {\r\n  display: block;\r\n  border: 2px solid black;\r\n  border-radius: 1px;\r\n  background-color: #e7e7e7;\r\n}\r\n.imgSize[_ngcontent-%COMP%]{\r\nmin-width: 40px;\r\nmin-height: 80px;\r\n}\r\n.minCardHieght[_ngcontent-%COMP%]{\r\nmin-height: 35em;\r\nmargin:3px;\r\nborder: 2px solid black;\r\nborder-radius: 1px ;\r\n}\r\n.yearContainer[_ngcontent-%COMP%]{\r\ndisplay: grid;\r\n\r\n}\r\n.yearElemnt[_ngcontent-%COMP%]{\r\ngrid-auto-columns: auto;\r\n}\r\n.alignCenter[_ngcontent-%COMP%]{\r\n  text-align: center;\r\n    margin: auto;\r\n    color: black;\r\n}"] });
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](HomeComponent, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
         args: [{
